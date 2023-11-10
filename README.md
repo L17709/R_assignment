@@ -1,8 +1,8 @@
 # R_assignment
 script文件夹
 
-      Assignmet1—01_assignment_1.R
+      Assignmet_1—01_assignment_1.R
 
-      Assignmet2-1—02_assignment_2_1.R
+      Assignmet_2-1—02_assignment_2_1.R
 
-      Assignmet2-2—02_assignment_2_2.R
+      Assignmet_2-2—02_assignment_2_2.R
