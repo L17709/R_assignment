@@ -11,7 +11,10 @@ options(scipen = 200)
 intersection <- inner_join(data_person, data_accident, by = c("CASENUM", "VE_FORMS", "REGION", "PSU", "PJ", 
                                                               "PSU_VAR", "URBANICITY", "STRATUM", "MONTH", 
                                                               "HOUR", "MINUTE", "HARM_EV", "MAN_COLL", 
-                                                              "SCH_BUS", "PSUSTRAT", "WEIGHT"))
+                                                              "SCH_BUS", "PSUSTRAT", "WEIGHT")
+                           )
+# 获取交集的行数和列数
+dim(intersection)
 
 # 2-2-2 统计实验对象中每种受伤程度的人数
 data_each_injury_severity = data_person %>%
@@ -23,7 +26,8 @@ data_vehicle <- read.csv("data/2023-11-02_data-assignment/data-assignment/CRSS/V
 data_accident_vehicle <- left_join(data_accident, data_vehicle, by = c("CASENUM", "REGION", "PSU", "PJ", 
                                                                        "PSU_VAR", "URBANICITY", "STRATUM", 
                                                                        "VE_FORMS", "MONTH", "HOUR", "MINUTE",
-                                                                       "HARM_EV", "MAN_COLL", "PSUSTRAT", "WEIGHT"))
+                                                                       "HARM_EV", "MAN_COLL", "PSUSTRAT", "WEIGHT")
+                                   )
 # 获取结果数据集的行数和列数
 dim(data_accident_vehicle)
 # 获取结果数据集中缺失值的数量
