@@ -17,7 +17,7 @@ IRI_summary_subset <- iri %>%
     IRI_max = max(IRI, na.rm = TRUE),
     IRI_mean = mean(IRI, na.rm = TRUE)
   )
-#获取 IRI_summary_subset 的行数和列数
+# 获取 IRI_summary_subset 的行数和列数
 dim(IRI_summary_subset)
 
 # 2-1-3 以 IRI 的平均值降序进行排序
