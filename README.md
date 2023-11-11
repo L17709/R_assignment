@@ -5,4 +5,4 @@ script文件夹
 
       Assignmet-2-1--02_assignment_2_1.R
 
-      Assignmet-2-2--02_assignment_2_2.R
+      Assignmet-2-2--03_assignment_2_2.R
